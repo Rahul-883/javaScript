@@ -16,7 +16,7 @@ changeUsername(){
 
 }
 
-cosnt chai = new User ("chai", "chai@gmail.com")
+const chai = new User ("chai", "chai@gmail.com")
 
 console.log(chai.encryptPassword());
 console.log(chai.chai());
@@ -33,7 +33,7 @@ USer.prototype.encryptPassword = function(){
     return `${this.password}abc`
 }
 
-cosnt tea = new User ("tea", "chai@gmail.com")
+const tea = new User ("tea", "chai@gmail.com")
 
 console.log(chai.encryptPassword());
 console.log(chai.chan());
